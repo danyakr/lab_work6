@@ -24,5 +24,6 @@ def test_no_precision():
     assert convert_precision('1e') == 6
     assert convert_precision('') == 6
 
+
 if __name__ == '__main__':
     pytest.main()

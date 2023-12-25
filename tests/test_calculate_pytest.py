@@ -32,5 +32,6 @@ def test_zero_divide():
     with pytest.raises(ZeroDivisionError, match='Деление на ноль!'):
         calculate('1', '0', '/')
 
+
 if __name__ == '__main__':
     pytest.main()
